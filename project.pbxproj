@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = {};
+ objectVersion = 56;
+ objects = {
+  A00000000000000000000001 /* Project object */ = {
+   isa = PBXProject;
+   attributes = { BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; };
+   buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject */;
+   compatibilityVersion = "Xcode 14.0";
+   developmentRegion = en;
+   hasScannedForEncodings = 0;
+   knownRegions = (en, Base);
+   mainGroup = A00000000000000000000003;
+   productRefGroup = A00000000000000000000004 /* Products */;
+   projectDirPath = "";
+   projectRoot = "";
+   targets = (A00000000000000000000005 /* UnknownSourceSigner */);
+  };
+  A00000000000000000000003 = {
+   isa = PBXGroup;
+   children = (
+    A00000000000000000000006 /* UnknownSourceSigner */,
+    A00000000000000000000007 /* Products */,
+   );
+   sourceTree = "<group>";
+  };
+  A00000000000000000000006 /* UnknownSourceSigner */ = {
+   isa = PBXGroup;
+   path = UnknownSourceSigner;
+   sourceTree = "<group>";
+   children = (
+    A00000000000000000000008 /* UnknownSourceSignerApp.swift */,
+    A00000000000000000000009 /* ContentView.swift */,
+    A0000000000000000000000A /* Info.plist */,
+   );
+  };
+  A00000000000000000000007 /* Products */ = {
+   isa = PBXGroup;
+   name = Products;
+   sourceTree = "<group>";
+   children = (A0000000000000000000000B /* UnknownSourceSigner.app */);
+  };
+  A00000000000000000000008 /* UnknownSourceSignerApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnknownSourceSignerApp.swift; sourceTree = "<group>"; };
+  A00000000000000000000009 /* ContentView.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+  A0000000000000000000000A /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+  A0000000000000000000000B /* UnknownSourceSigner.app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnknownSourceSigner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+  A00000000000000000000005 /* UnknownSourceSigner */ = {
+   isa = PBXNativeTarget;
+   buildConfigurationList = A0000000000000000000000C /* Build configuration list for PBXNativeTarget */;
+   buildPhases = (
+    A0000000000000000000000D /* Sources */,
+    A0000000000000000000000E /* Frameworks */,
+    A0000000000000000000000F /* Resources */,
+   );
+   buildRules = ();
+   dependencies = ();
+   name = UnknownSourceSigner;
+   productName = UnknownSourceSigner;
+   productReference = A0000000000000000000000B /* UnknownSourceSigner.app */;
+   productType = "com.apple.product-type.application";
+  };
+  A0000000000000000000000D /* Sources */ = {
+   isa = PBXSourcesBuildPhase;
+   buildActionMask = 2147483647;
+   files = (A00000000000000000000010 /* UnknownSourceSignerApp.swift in Sources */, A00000000000000000000011 /* ContentView.swift in Sources */);
+   runOnlyForDeploymentPostprocessing = 0;
+  };
+  A0000000000000000000000E /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A0000000000000000000000F /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+  A00000000000000000000010 /* UnknownSourceSignerApp.swift in Sources */ = { isa = PBXBuildFile; fileRef = A00000000000000000000008; };
+  A00000000000000000000011 /* ContentView.swift in Sources */ = { isa = PBXBuildFile; fileRef = A00000000000000000000009; };
+  A00000000000000000000012 /* Project Debug */ = { isa = XCBuildConfiguration; buildSettings = { }; name = Debug; };
+  A00000000000000000000013 /* Project Release */ = { isa = XCBuildConfiguration; buildSettings = { }; name = Release; };
+  A00000000000000000000014 /* Target Debug */ = { isa = XCBuildConfiguration; buildSettings = {
+    CODE_SIGN_STYLE = Automatic;
+    CURRENT_PROJECT_VERSION = 1;
+    GENERATE_INFOPLIST_FILE = NO;
+    INFOPLIST_FILE = UnknownSourceSigner/Info.plist;
+    IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+    MARKETING_VERSION = 1.0;
+    PRODUCT_BUNDLE_IDENTIFIER = com.unknownsource.signer;
+    PRODUCT_NAME = "$(TARGET_NAME)";
+    SDKROOT = iphoneos;
+    SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+    SWIFT_VERSION = 5.0;
+    TARGETED_DEVICE_FAMILY = "1,2";
+   }; name = Debug; };
+  A00000000000000000000015 /* Target Release */ = { isa = XCBuildConfiguration; buildSettings = {
+    CODE_SIGN_STYLE = Automatic;
+    CURRENT_PROJECT_VERSION = 1;
+    GENERATE_INFOPLIST_FILE = NO;
+    INFOPLIST_FILE = UnknownSourceSigner/Info.plist;
+    IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+    MARKETING_VERSION = 1.0;
+    PRODUCT_BUNDLE_IDENTIFIER = com.unknownsource.signer;
+    PRODUCT_NAME = "$(TARGET_NAME)";
+    SDKROOT = iphoneos;
+    SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+    SWIFT_VERSION = 5.0;
+    TARGETED_DEVICE_FAMILY = "1,2";
+   }; name = Release; };
+  A00000000000000000000002 /* Project configuration list */ = { isa = XCConfigurationList; buildConfigurations = (A00000000000000000000012, A00000000000000000000013); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+  A0000000000000000000000C /* Target configuration list */ = { isa = XCConfigurationList; buildConfigurations = (A00000000000000000000014, A00000000000000000000015); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ };
+ rootObject = A00000000000000000000001;
+}
